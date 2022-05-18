@@ -1,0 +1,21 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply whitespace-nowrap rounded-md ease-in-out;
+}
+
+.btn-sm {
+  @apply inline-flex h-11 items-center whitespace-nowrap rounded-lg px-5 font-bold text-white shadow-light transition hover:shadow-lg;
+}
+.btn-md {
+  @apply inline-flex h-11 items-center justify-center whitespace-nowrap rounded-xl px-5 shadow-light transition hover:shadow-lg focus:outline-none sm:mx-0 md:px-8 md:pl-6 md:pr-6 lg:h-16 lg:px-11 lg:pl-8 lg:pr-8 lg:text-lg;
+}
+.btn-lime {
+  @apply bg-lime-500 font-bold text-gray-800  hover:bg-lime-400;
+}
+.btn-light {
+  @apply bg-gray-200 font-bold text-gray-800  hover:bg-gray-100;
+}
